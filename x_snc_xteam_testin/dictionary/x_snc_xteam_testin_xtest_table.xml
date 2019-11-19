@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Xtest table" max_length="40" name="x_snc_xteam_testin_xtest_table" type="collection">
+    <element label="Xtest table" max_length="40" name="x_snc_xteam_testin_xtest_table" sizeclass="0" type="collection">
+        <element label="animal" mandatory="true" max_length="40" name="animal" type="string"/>
         <element label="Random" max_length="40" name="random" type="boolean"/>
     </element>
 </database>
